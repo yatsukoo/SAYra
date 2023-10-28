@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100&family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+
+.essaypage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.coursepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edupage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upbar {
+    display: flex;
+    width: 346px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 47px;
+    position: relative;
+    right: 360px;
+}
+
+.upbar .logo {
+    background-image: url('./../../../public/img/Logo_Sayra.png');
+    width: 190px;
+    height: 53px;
+    position: relative;
+    top: 13px
+}
+
+
+.profile {
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+
+}
+
+.prof-icon {
+    background-image: url('./../../../public/img/porfile-icon.png');
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 30px
+}
+
+.workspace {
+    color: #2A2F48;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.upbar .course {
+    display: flex;
+    width: 90px;
+    height: 70px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 102px;
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    bottom: 90px;
+    left: 25px;
+}
+
+.course-st {
+    text-decoration: none;
+}
+
+.logo-c {
+    background-image: url('./../../../public/img/Icons-drawer.png');
+    width: 28px;
+    height: 28px;
+    position: relative;
+    bottom: 40px;
+}
+
+.logo-s {
+    background-image: url('./../../../public/img/person-icon.png');
+    width: 30.924px;
+    height: 30.924px;
+    position: relative;
+    bottom: 90px;
+}
+
+.upbar .speaking {
+    display: flex;
+    width: 298px;
+    height: 70px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 102px;
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    bottom: 140px;
+    right: 65px;
+}
+
+.logo-e {
+    background-image: url('./../../../public/img/essay-icon.png');
+    width: 28px;
+    height: 28px;
+    position: relative;
+    bottom: 128px;
+}
+
+.upbar .essay-text {
+    display: flex;
+    width: 298px;
+    height: 70px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 102px;
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    bottom: 180px;
+    right: 75px;
+}
+
+.logo-f {
+    background-image: url('./../../../public/img/icon\ _star_.png');
+    width: 28.546px;
+    height: 28.546px;
+    position: relative;
+    bottom: 170px;
+}
+
+.upbar .free-text {
+    display: flex;
+    width: 298px;
+    height: 70px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 102px;
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    bottom: 220px;
+    right: 85px;
+}
+
+.logo-p {
+    background-image: url('./../../../public/img/icon\ _\ text_outline_.png');
+    width: 31px;
+    height: 31px;
+    position: relative;
+    bottom: 195px;
+}
+
+.upbar .program-text {
+    display: flex;
+    width: 298px;
+    height: 70px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 102px;
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    bottom: 250px;
+    left: 45px;
+}
+
+.title-essay {
+    color: #0540F2;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 108.412%;
+    position: relative;
+    bottom: 750px;
+    right: 60px;
+}
+
+.word-content {
+    width: 641px;
+    height: 291px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 150px;
+    right: 240px;
+}
+
+.word-cnt {
+    width: 165px;
+    height: 46px;
+    font-size: 24px;
+    position: absolute;
+    bottom: 50px;
+    right: 220px;
+}
+
+.essay-btn {
+    width: 134.067px;
+    height: 35.612px;
+    color: #F5F5F5;
+    background-color: #0540F2;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.412%;
+    border-radius: 19px;
+    position: absolute;
+    bottom: 10px;
+    right: 150px;
+}
+
+.coursepage .speaking-title {
+    color: #0540F2;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 108.412%;
+    position: relative;
+    bottom: 340px;
+}
+
+.blog-image {
+    background-image: url('./../../../public/img/blog-image.png');
+    width: 1111px;
+    height: 625px;
+    position: absolute;
+    right: 70px;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basic-c {
+    background-color: #F5F5F5;
+    width: 300px;
+    height: 668px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.text-block {
+    color: #5D5A6F;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    left: 80px;
+}
+
+.title-basic {
+    color: #0A033C;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    left:50px;
+}
+
+.btn-block {
+    width: 200px;
+    height: 58px;
+    border-radius: 20px;
+    background: #FFF;
+    color: #9C4DF4;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    border: 1px solid #5D5A6F;
+    position: relative;
+    left: 50px;
+}
+
+.price {
+    color: #0A033C;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    left: 50px;
+}
+.pack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:500px;
+}
