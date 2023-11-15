@@ -7,8 +7,12 @@ const Courses = () => {
             <div className='upbar'>
                 <div className='logo'></div>
                 <div className='prof'>
-                    <div className='prof-icon'></div>
-                    <div className='profile'>Профиль</div>
+                    <div className='profile'>
+                        <Link to='/profile' className='course-st'>
+                            <div className='prof-icon'></div>
+                            <div className='profile'>Профиль</div>
+                        </Link>
+                    </div>
                 </div>
                 <p className='workspace'>workspace</p>
                 <div>
@@ -31,12 +35,17 @@ const Courses = () => {
                     </Link>
                 </div>
                 <div>
-                    <div className='logo-f'></div>
-                    <div className='free-text'>Free materials</div>
+                    <Link to='/materials' className='course-st'>
+                        <div className='logo-f'></div>
+                        <div className='free-text'>Free materials</div>
+                    </Link>
+
                 </div>
                 <div>
-                    <div className='logo-p'></div>
-                    <div className='program-text'>Программы и олимпиады</div>
+                    <Link to = '/programs' className='course-st'>
+                        <div className='logo-p'></div>
+                        <div className='program-text'>Программы и олимпиады</div>
+                    </Link>
                 </div>
             </div>
             <div>

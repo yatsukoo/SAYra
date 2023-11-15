@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import { Link, Router, Routes } from 'react-router-dom';
 import './style.css'
-const Essay = () => {
+const Profile = () => {
+    let username = 'Aruzhan Onggar';
+    let status = 'bachelor';
     return (
-        <div className='essaypage'>
+        <div className='Profile-page'>
             <div className='upbar'>
                 <div className='logo'></div>
                 <div className='prof'>
@@ -47,15 +49,43 @@ const Essay = () => {
                     </Link>
                 </div>
             </div>
-            <div className='title-essay'>
-                The essay review
+            <div className='header-profile'>
+                <div className='avatar'></div>
+                <div className='user-info'>
+                    <div className='username'>{username}</div>
+                    <div className='status'>Статус: <t></t>{status}</div>
+                    <div className='address'>Место проживание: Astana,Kazakhstan</div>
+                </div>
+                <div className='user-info2'>
+                    <div className='education-info'>Образование:</div>
+                    <div className='plan'>Планируется: {status}</div>
+                </div>
+                <div>
+
+                </div>
+
             </div>
-            <input id='essay-place' className="word-content" placeholder='Type your essay here...'></input>
-            <div className='word-cnt'>
-                Words Count: 0
+            <div className='barchart'></div>
+            <div className='pre-IELTS'>
+                <div className='icondrawer'></div>
+                <div className='more'></div>
+                <div className='title'>Pre&#8209;IELTS</div>
+                <div className='usericon'></div>
+                <div className='username'>{username}</div>
+                <div className='diogram'></div>
             </div>
-            <button className='essay-btn'>Submit</button>
+            <div className='IELTS'>
+                <div className='icondrawer'></div>
+                <div className='more'></div>
+                <div className='title'>IELTS</div>
+                <div className='usericon'></div>
+                <div className='username'>{username}</div>
+                <div className='diogram'></div>
+            </div>
+
+
         </div>
-    )
+    );
 }
-export default Essay;
+
+export default Profile

@@ -26,7 +26,7 @@ const Header = () => {
                         индивидуальные <br />рекомендации для подготовки к международным экзаменам.
                     </div>
                     <div className='btn-consul'>
-                        <button className='free-consul'>Бесплатная<br /> консультация</button>
+                        <button className='free-consul'><a className='btn-ref-color' href='https://instagram.com/studywitharuzhan?igshid=ZmplZzVjZDM4eHNp'>Бесплатная<br /> консультация</a></button>
                     </div>
                     <div className='overlay'></div>
                     <Modal active={modalActive} setActive={setModalActive}>
@@ -34,8 +34,11 @@ const Header = () => {
                             <div>
                                 <div className='book-icon'></div>
                                 <p className='form-logo'>SAYra</p>
-                                <p className='form-dicrip'>Welcome to <p>SAYra Platform</p></p>
+                                <p className='form-dicrip'>Welcome to</p>
+                                <p className='form-dicrip'>SAYra Platform</p>
                                 <div className='backround-form'>
+                                    <div className='main-img2'></div>
+                                    <div className='vasa-img'></div>
                                 </div>
                             </div>
                             <div>
@@ -59,9 +62,6 @@ const Header = () => {
                             </div>
 
                         </div>
-
-
-
                     </Modal>
                 </div>
                 <div>

@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { Link, Router, Routes } from 'react-router-dom';
 import './style.css'
-const Essay = () => {
+const Materials = () => {
     return (
-        <div className='essaypage'>
+        <div className='materialspage'>
             <div className='upbar'>
                 <div className='logo'></div>
                 <div className='prof'>
@@ -47,15 +47,17 @@ const Essay = () => {
                     </Link>
                 </div>
             </div>
-            <div className='title-essay'>
-                The essay review
+            <div className='title-mat'>Полезные ресурсы</div>
+            <div className='materials-block'>
+                <button className='btn-mat'><p className='text-mat'> Университеты США со 100% финансированием</p><div className='download'></div></button>
+                <button className='btn-mat'><p className='text-mat'>IELTS Reading question strategies</p> <div className='download'></div></button>
+                <button className='btn-mat'><p className='text-mat'>IELTS 6 week study plan </p><div className='download'></div></button>
+                <button className='btn-mat'><p className='text-mat'>Phrasal Verbs and Idioms In Context: Suitable for levels B2-C1</p> <div className='download'></div></button>
             </div>
-            <input id='essay-place' className="word-content" placeholder='Type your essay here...'></input>
-            <div className='word-cnt'>
-                Words Count: 0
-            </div>
-            <button className='essay-btn'>Submit</button>
+
         </div>
-    )
+
+    );
 }
-export default Essay;
+
+export default Materials

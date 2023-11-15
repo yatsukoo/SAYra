@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100&display=swap');
 
+*{
+  margin: 0;
+  padding: 0; 
+}
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../public/img/Rectangle.png');
   width: 100%;
@@ -11,7 +15,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 24px;
+  font-size: 27px;
   width: 1117px;
   height: 49px;
   margin-left: 90px;
@@ -28,9 +32,10 @@
   font-size: 105px;
   margin-top: 121px;
   color: #FFFFFF;
-  text-indent: 80px;
+  text-indent: 280px;
   font-family: 'Montserrat', sans-serif;
 }
+
 
 .logo {
   position: relative;
@@ -96,7 +101,7 @@
   height: 660px;
   width: 440px;
   position: relative;
-  left: 88px;
+  right: 80px;
   top: 50px;
 }
 
@@ -108,14 +113,16 @@
   align-items: center;
   flex-direction: column;
   position: relative;
+  right: 100px;
   bottom: 150px;
 }
 
 .title-info {
   font-size: 64px;
   color: #0540F2;
-  position: relative;
-  right: 130px;
+  position: absolute;
+  right: 1200px;
+  bottom: 840px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -159,7 +166,7 @@
 }
 
 .element-dicrip {
-  line-height: 0;
+  line-height: 1;
 }
 
 .serivis-title {
@@ -193,13 +200,15 @@
   position: relative;
   left: 120px;
   font-size: 32px;
+  margin-top: 10px;
 
 }
 
 .block-review-dicrip {
   color: white;
-  line-height: 0;
+  line-height: 1;
   position: relative;
+  top: 20px;
   left: 120px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -213,7 +222,7 @@
   border-color: white;
   position: relative;
   left: 130px;
-  top: 20px;
+  top: 40px;
 }
 
 .icon-notes {
@@ -243,11 +252,11 @@
 
 .block-speaking-dicrip {
   color: white;
-  line-height: 0;
+  line-height: 1;
   position: relative;
-  margin-left: 105px;
+  top: 20px;
+  left: 120px;
   font-family: 'Montserrat', sans-serif;
-  width: 245px;
 }
 
 .block-speaking-btn {
@@ -259,7 +268,7 @@
   border-color: white;
   position: relative;
   left: 130px;
-  margin-bottom: 60px;
+  margin-top: 30px;
 }
 
 .icon-user {
@@ -282,15 +291,17 @@
   color: white;
   font-family: 'Montserrat', sans-serif;
   position: relative;
-  padding-left: 120px;
-  font-size: 30px;
+  margin-left: 115px;
+  font-size: 32px;
+  margin-top: 10px;
 }
 
 .block-consult-dicrip {
   color: white;
-  line-height: 0;
+  line-height: 1;
   position: relative;
-  padding-left: 120px;
+  top: 20px;
+  left: 120px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -303,7 +314,7 @@
   border-color: white;
   position: relative;
   left: 130px;
-  top: 10px;
+  margin-top: 30px;
 }
 
 .icon-consult {
@@ -334,7 +345,6 @@
   background-color: #E8E8E8;
   width: 397px;
   height: 475px;
-
   position: relative;
   border-radius: 25px;
 }
@@ -358,13 +368,14 @@
 .pre-IELTS .title {
   color: #0540F2;
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   position: relative;
   bottom: 102px;
-  right: 155px;
+  right: 160px;
+  
 }
 
 .pre-IELTS .btn {
@@ -375,10 +386,10 @@
   height: 48px;
   color: #FFF;
   position: relative;
-  bottom: 110px;
-  left: 21px;
+  bottom: 80px;
+  left: 91px;
   text-align: center;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -431,8 +442,8 @@
   height: 48px;
   color: #FFF;
   position: relative;
-  bottom: 110px;
-  left: 21px;
+  bottom: 80px;
+  left: 91px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
@@ -540,6 +551,11 @@
   width: 289.516px;
   height: 170.184px;
   background-color: #0540F2;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .google {
@@ -602,7 +618,8 @@
   font-weight: 400;
   line-height: normal;
   position: relative;
-  padding-right: 250px;
+  padding-right: 290px;
+  bottom: 50px;
 }
 
 .form-dicrip {
@@ -615,7 +632,7 @@
   line-height: 0;
   position: relative;
   padding-right: 110px;
-  padding-bottom: 330px;
+  padding-bottom: 50px;
 }
 
 .text-name {
@@ -631,6 +648,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  top: 100px;
 }
 
 .google {
@@ -748,17 +766,16 @@
   background-image: url('./../public/img/open-book\ 1.png');
   width: 12px;
   height: 12px;
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 18px;
+  position: relative;
+  bottom: 33px;
 }
 
 .backround-form {
   width: 300px;
   height: 180px;
   background-color: #0540F2;
-  position: absolute;
-  bottom: 200px;
+  position: relative;
+
 }
 
 .navclick {
@@ -776,3 +793,22 @@
   text-decoration: none;
 }
 
+.man-img {
+  background-image: url('./../public/img/man-img.png');
+  width: 160.174px;
+  height: 202.241px;
+  position: relative;
+  margin-left: 100px;
+}
+
+.vasa-img {
+  background-image: url('./../public/img/vasa-img.png');
+  width: 77.08px;
+  height: 114.163px;
+  position: relative;
+  margin-right: 50px;
+}
+.btn-ref-color{
+  color: white;
+  text-decoration: none;
+}

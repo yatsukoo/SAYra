@@ -1,11 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100&family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100&family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
 
 .essaypage {
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+
+.materialspage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.programpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.programpage .upbar {
+    position: relative;
+    right: 30px;
+    bottom: 400px;
+}
+
+.materialspage .upbar {
+    position: relative;
+    right: 500px;
 }
 
 .coursepage {
@@ -18,6 +43,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+}
+
+.edupage .upbar {
+    position: absolute;
+    right: 600px;
+    top: 50px;
 }
 
 .upbar {
@@ -43,14 +75,14 @@
     color: #222;
     font-size: 24px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     line-height: normal;
     font-family: 'Montserrat', sans-serif;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 60px;
+    padding-left: 40px;
 
 }
 
@@ -82,7 +114,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     line-height: normal;
     position: relative;
     bottom: 90px;
@@ -120,14 +152,14 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     line-height: normal;
     position: relative;
     bottom: 140px;
     right: 65px;
 }
 
-.logo-e {
+.upbar .profile .logo-e {
     background-image: url('./../../../public/img/essay-icon.png');
     width: 28px;
     height: 28px;
@@ -146,11 +178,19 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     line-height: normal;
     position: relative;
     bottom: 180px;
     right: 75px;
+}
+
+.logo-e {
+    width: 28px;
+    height: 28px;
+    background-image: url('./../../../public/img/essaylogo.png');
+    position: relative;
+    bottom: 130px;
 }
 
 .logo-f {
@@ -158,7 +198,7 @@
     width: 28.546px;
     height: 28.546px;
     position: relative;
-    bottom: 170px;
+    bottom: 175px;
 }
 
 .upbar .free-text {
@@ -172,10 +212,10 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     line-height: normal;
     position: relative;
-    bottom: 220px;
+    bottom: 225px;
     right: 85px;
 }
 
@@ -184,7 +224,7 @@
     width: 31px;
     height: 31px;
     position: relative;
-    bottom: 195px;
+    bottom: 210px;
 }
 
 .upbar .program-text {
@@ -198,14 +238,14 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     line-height: normal;
     position: relative;
-    bottom: 250px;
+    bottom: 260px;
     left: 45px;
 }
 
-.title-essay {
+.up .title-essay {
     color: #0540F2;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -214,8 +254,8 @@
     font-weight: 500;
     line-height: 108.412%;
     position: relative;
-    bottom: 750px;
-    right: 60px;
+    left: 40px;
+    bottom: 270px;
 }
 
 .word-content {
@@ -283,12 +323,14 @@
 .basic-c {
     background-color: #F5F5F5;
     width: 300px;
-    height: 668px;
+    height: 608px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
+    position: relative;
+    margin-right: 40px;
 }
 
 .text-block {
@@ -299,7 +341,7 @@
     font-weight: 500;
     line-height: normal;
     position: relative;
-    left: 80px;
+    left: 50px;
 }
 
 .title-basic {
@@ -309,7 +351,8 @@
     font-weight: 600;
     line-height: normal;
     position: relative;
-    left:50px;
+    left: 50px;
+    bottom: 50px;
 }
 
 .btn-block {
@@ -326,6 +369,16 @@
     border: 1px solid #5D5A6F;
     position: relative;
     left: 50px;
+    top: 90px;
+}
+
+.price-img {
+    background-image: url('./../../../public/img/price-tag\ 1\ \(1\).png') ;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 70px;
+    left: 50px;
 }
 
 .price {
@@ -336,11 +389,537 @@
     line-height: normal;
     position: relative;
     left: 50px;
+    top: 50px;
 }
-.pack{
+
+.btn-block-av {
+    width: 200px;
+    height: 58px;
+    border-radius: 20px;
+    background: #9C4DF4;
+    ;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    border: 1px solid #5D5A6F;
+    position: relative;
+    left: 50px;
+    top: 90px;
+}
+
+.pack {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    left: 500px;
+    top: 200px;
+}
+
+
+
+.Profile-page .header-profile {
+    width: 902px;
+    height: 195px;
+    background-color: #F5F5F5;
+    position: relative;
+    left: 423px;
+    top: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profile-page .upbar {
     position: absolute;
-    left:500px;
+    right: 1080px;
+}
+
+.avatar {
+    height: 140px;
+    width: 140px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    position: relative;
+    right: 130px;
+}
+
+.username {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    bottom: 20px;
+}
+
+.status {
+    font-family: 'Roboto Flex', sans-serif;
+    position: relative;
+    bottom: 10px;
+}
+
+.address {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.user-info {
+    position: relative;
+    right: 100px;
+}
+
+.user-info2 {
+    position: relative;
+    right: 30px;
+    font-family: 'Roboto Flex', sans-serif;
+
+}
+
+.education-info {
+    position: relative;
+    top: 5px;
+}
+
+.user-info2 .plan {
+    position: relative;
+    top: 10px;
+}
+
+.barchart {
+    background-image: url('./../../../public/img/Barchart.png');
+    width: 550px;
+    height: 295px;
+    position: relative;
+    left: 461px;
+    top: 114px;
+}
+
+.Profile-page .pre-IELTS {
+    width: 272px;
+    height: 314px;
+    background-color: rgba(151, 71, 255, 0.25);
+    position: relative;
+    left: 461px;
+    top: 200px;
+}
+
+.Profile-page .pre-IELTS .icondrawer {
+    width: 28px;
+    height: 28px;
+    background-image: url('./../../../public/img/Icons-drawer.png');
+    position: relative;
+    top: 22px;
+    left: 16px;
+}
+
+.Profile-page .pre-IELTS .more {
+    background-image: url('./../../../public/img/more_horiz.png');
+    height: 24px;
+    width: 24px;
+    position: relative;
+    left: 232px;
+    bottom: 5px;
+}
+
+.Profile-page .pre-IELTS .title {
+    position: relative;
+    bottom: 100px;
+    right: 220px;
+    color: var(--Gray-2, #4F4F4F);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Profile-page .pre-IELTS .username {
+    color: var(--Gray-2, #4F4F4F);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    bottom: 105px;
+    left: 40px;
+}
+
+.Profile-page .pre-IELTS .usericon {
+    background-image: url('../../../public/img/usericon.png');
+    width: 16px;
+    height: 16px;
+    bottom: 90px;
+    left: 19px;
+    position: relative;
+}
+
+.Profile-page .pre-IELTS .diogram {
+    background-image: url('./../../../public/img/Diagram-preielts.png');
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 76px;
+    bottom: 67px;
+}
+
+.Profile-page .IELTS {
+    width: 272px;
+    height: 314px;
+    background-color: rgba(47, 128, 237, 0.25);
+    position: relative;
+    bottom: 113px;
+    left: 560px;
+}
+
+.Profile-page .IELTS .icondrawer {
+    width: 28px;
+    height: 28px;
+    background-image: url('./../../../public/img/Icons-drawer.png');
+    position: relative;
+    top: 22px;
+    left: 16px;
+}
+
+.Profile-page .IELTS .more {
+    background-image: url('./../../../public/img/more_horiz2.png');
+    height: 24px;
+    width: 24px;
+    position: relative;
+    left: 232px;
+    bottom: 5px;
+}
+
+.Profile-page .IELTS .title {
+    position: relative;
+    bottom: 100px;
+    right: 220px;
+    color: var(--Gray-2, #4F4F4F);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Profile-page .IELTS .username {
+    color: var(--Gray-2, #4F4F4F);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    bottom: 105px;
+    left: 40px;
+}
+
+.Profile-page .IELTS .usericon {
+    background-image: url('../../../public/img/usericon2.png');
+    width: 16px;
+    height: 16px;
+    bottom: 90px;
+    left: 19px;
+    position: relative;
+}
+
+.Profile-page .IELTS .diogram {
+    background-image: url('./../../../public/img/Diagram-ielts.png');
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 76px;
+    bottom: 67px;
+}
+
+.materials-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.btn-mat {
+    width: 746px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #FFF;
+    margin-bottom: 11px;
+    position: relative;
+    bottom: 770px;
+    left: 100px;
+}
+
+.title-mat {
+    width: 542px;
+    height: 39px;
+    flex-shrink: 0;
+    color: #0540F2;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 108.412%;
+    position: relative;
+    bottom: 830px;
+    left: 100px;
+}
+
+.download {
+    background-image: url('./../../../public/img/🦆\ icon\ _download_.png');
+    width: 23.605px;
+    height: 23.605px;
+    position: relative;
+    bottom: 5px;
+    left: 695px;
+}
+
+.text-mat {
+    position: relative;
+    top: 10px;
+    left: 29px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title-programs {
+    width: 502px;
+    height: 39px;
+    flex-shrink: 0;
+    color: #0540F2;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 108.412%;
+    position: relative;
+    top: 150px;
+    left: 210px;
+}
+
+.program-block {
+    width: 932px;
+    height: 449px;
+    border-radius: 20px;
+    background: #E0F0FF;
+    position: relative;
+    top: 193px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.searh-program {
+    width: 224px;
+    height: 57px;
+    color: #787878;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 107.912%;
+    border-radius: 10px;
+    position: relative;
+    top: 75px;
+    left: 54px;
+}
+
+.text-Course-class {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 108.412%;
+    position: relative;
+    top: 60px;
+    left: 54px;
+}
+
+.block-search {
+    margin-right: 76px;
+}
+
+.block-search1 {
+    margin-right: 76px;
+}
+
+.block-country {
+    position: relative;
+    bottom: 150px;
+    left: 10px;
+}
+
+.accept {
+    width: 155px;
+    height: 41px;
+    border-radius: 19px;
+    background: #0540F2;
+    color: #F5F5F5;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.412%;
+    position: relative;
+    left: 50px;
+    top: 0px;
+}
+
+.filter-block {
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 500px;
+}
+
+.search-bar {
+    width: 644px;
+    height: 57px;
+    color: #787878;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 107.912%;
+    border-radius: 10px;
+    position: relative;
+    left: 0px;
+    top: 150px;
+}
+
+.search-uni .title-uni {
+    position: relative;
+    top: 140px;
+}
+
+.flex-block {
+    display: flex;
+    background-color: #F5F5F5;
+    position: relative;
+    top: 190px;
+}
+
+.flex-img {
+    background-image: url('./../../../public/img/flex-img.png');
+    width: 314px;
+    height: 368px;
+}
+
+.flex-title {
+    color: #000;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 32px */
+    letter-spacing: -1.28px;
+    position: relative;
+    top: 40px;
+    left: 140px;
+}
+
+.flex-text {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    letter-spacing: -0.64px;
+}
+
+.flex-reg {
+    color: var(--primaty-grey-dark, #757575);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    position: relative;
+    left: 50px;
+    top: 120px;
+    letter-spacing: -0.64px;
+}
+
+.flex-btn {
+    width: 155px;
+    height: 41px;
+    border-radius: 19px;
+    background: #0540F2;
+    color: #F5F5F5;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.412%;
+    position: relative;
+    top: 190px;
+    left: 50px;
+}
+
+.iQanat-block {
+    display: flex;
+    background-color: #F5F5F5;
+    position: relative;
+    top: 230px;
+}
+
+.iqanat-img {
+    background-image: url('./../../../public/img/Iqanat.png');
+    width: 309px;
+    height: 366px;
+}
+
+.qanat-btn {
+    width: 155px;
+    height: 41px;
+    border-radius: 19px;
+    background: #0540F2;
+    color: #F5F5F5;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.412%;
+    position: relative;
+    top: 160px;
+    left: 50px;
+}
+
+.Rise-block {
+    display: flex;
+    background-color: #F5F5F5;
+    position: relative;
+    top: 270px;
+}
+
+.rise-img {
+    background-image: url('./../../../public/img/rise.png');
+    width: 362px;
+    height: 366px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    padding-left: 10px;
+}
+
+#essay-place::placeholder {
+    vertical-align: top;
+    padding-top: 5px;
 }
